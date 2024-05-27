@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* cor de fundo da página */
+  }
+  
+  header {
+    background-color: #333; /* cor de fundo do cabeçalho */
+    color: #fff; /* cor do texto do cabeçalho */
+    padding: 20px;
+    text-align: center;
+    display: flex; /* para alinhar a imagem e o título */
+    justify-content: space-between; /* para espaçar a imagem e o título */
+    align-items: center; /* para centralizar verticalmente a imagem e o título */
+  }
+  
+  header img {
+    width: 200px; /* largura da imagem de destaque */
+    height: 200px; /* altura da imagem de destaque */
+    border-radius: 50%; /* para dar um efeito de círculo à imagem */
+    margin: 20px; /* para dar um espaçamento à imagem */
+  }
+  
+  h1 {
+    font-size: 36px; /* tamanho do título principal */
+    margin: 0; /* para remover o espaçamento padrão do título */
+  }
+  
+  main {
+    padding: 20px; /* para dar um espaçamento à seção principal */
+    display: flex; /* para criar um layout flexível */
+    flex-wrap: wrap; /* para quebrar a linha quando necessário */
+    justify-content: center; /* para centralizar horizontalmente os elementos */
+  }
+  
+  aside {
+    float: right; /* para posicionar a ficha de identificação à direita */
+    width: 200px; /* largura da ficha de identificação */
+    background-color: #f2f2f2; /* cor de fundo da ficha de identificação */
+    padding: 20px; /* para dar um espaçamento à ficha de identificação */
+    text-align: center; /* para centralizar o texto da ficha de identificação */
+    border: 1px solid #ddd; /* para adicionar uma borda à ficha de identificação */
+    border-radius: 10px; /* para dar um efeito de curva à ficha de identificação */
+    margin: 20px; /* para dar um espaçamento à ficha de identificação */
+  }
+  
+  aside img {
+    width: 150px; /* largura da imagem de perfil */
+    height: 150px; /* altura da imagem de perfil */
+    border-radius: 50%; /* para dar um efeito de círculo à imagem de perfil */
+    margin: 20px; /* para dar um espaçamento à imagem de perfil */
+  }
+  
+  table {
+    width: 100%; /* para que a tabela ocupe toda a largura da página */
+    border-collapse: collapse; /* para remover o espaçamento entre as células */
+  }
+  
+  th, td {
+    padding: 8px; /* para dar um espaçamento às células */
+    text-align: left; /* para alinhar o texto à esquerda */
+    border-bottom: 1px solid #ddd; /* para adicionar uma borda inferior às células */
+  }
+  
+  th {
+    background-color: #333; /* cor de fundo do cabeçalho da tabela */
+    color: #fff; /* cor do texto do cabeçalho da tabela */
+  }
+  
+  footer {
+    background-color: #333; /* cor de fundo do rodapé */
+    color: #fff; /* cor do texto do rodapé */
+    padding: 10px; /* para dar um espaçamento ao rodapé */
+    text-align: center; /* para centralizar o texto do rodapé */
+    font-size: 14px; /* tamanho do texto do rodapé */
+    clear: both; /* para limpar o float da ficha de identificação */
+  }
+  
+  footer ul {
+    list-style: none; /* para remover o estilo de lista */
+    padding: 0; /* para remover o espaçamento da lista */
+    margin: 0; /* para remover o espaçamento da lista */
+  }
+  
+  footer li {
+    display: inline-block; /* para que os itens da lista sejam exibidos lado a lado */
+    margin: 10px; /* para dar um espaçamento entre os itens da lista */
+  }
+  
+  footer a {
+    color: #fff; /* cor do texto dos links */
+    text-decoration: none; /* para remover o sublinhado dos links */
+  }
+  
+  footer a:hover {
+    color: #d7d5d5; /* cor do texto dos links ao passar o mouse */
+  }
